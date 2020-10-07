@@ -1,3 +1,10 @@
-.container {
-    background-image: ./assets/image/home-background.png;
+.icon {
+    height: 4rem;
+    width: auto;
+}
+
+.portfolio-picture {
+    border-radius: 50%;
+    height: 17rem;
+    width: auto;
 }
