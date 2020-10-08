@@ -12,22 +12,39 @@
 </head>
 
 <body>
-    <navbar class="navbar has-background-primary">
-        <div class="navbar-end">
-            <a href="./index.html" class="nav-style has-text-weight-bold">Home</a>
-            <a href="./portfolio.html" class="nav-style has-text-weight-bold">Portfolio</a>
-            <a href="./contact.html" class="nav-style has-text-weight-bold">Contact</a>
+
+    <nav class="navbar has-background-primary">
+        <!-- For Mobile -->
+        <div class="navbar-brand">
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
         </div>
-    </navbar>
-    <div class="container">
-        <h1 class="title">Frontend Web Developer</h1>
-        <h3>David Anusontarangkul</h3>
-        <button>Portfolio</button>
-        <img class="icon" src="assets/image/html-icon.png" alt='html icon'>
-        <img class="icon" src="assets/image/css-icon.png" alt='css icon'>
-        <img class="icon" src="assets/image/javascript-icon.jpg" alt='javascript icon'>
-        <img class="icon" src="assets/image/jquery-icon.png" alt='jquery icon'>
-        <img class="portfolio-picture" src="assets/image/profile.jpg" alt="profile picture">
+        <div class="navbar-menu">
+            <div class="navbar-end">
+                <a href="./index.html" class="nav-style has-text-weight-bold">Home</a>
+                <a href="./portfolio.html" class="nav-style has-text-weight-bold">Portfolio</a>
+                <a href="./contact.html" class="nav-style has-text-weight-bold">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <div class="columns home-page">
+        <div class="column is-half-desktop">
+            <img class="portfolio-picture " src="assets/image/profile.jpg" alt="profile picture">
+        </div>
+        <div class="column is-half-desktop home-content">
+            <h1 class="title has-text-centered">Frontend Web Developer</h1>
+            <h3 class="has-text-centered">David Anusontarangkul</h3>
+            <button>Portfolio</button>
+            <img class="icon" src="assets/image/html-icon.png" alt='html icon'>
+            <img class="icon" src="assets/image/css-icon.png" alt='css icon'>
+            <img class="icon" src="assets/image/javascript-icon.jpg" alt='javascript icon'>
+            <img class="icon" src="assets/image/jquery-icon.png" alt='jquery icon'>
+        </div>
+
+
     </div>
 </body>
 <script src="./app.js"></script>

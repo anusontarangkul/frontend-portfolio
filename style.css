@@ -1,16 +1,33 @@
 .icon {
     height: 4rem;
     width: auto;
+    display: none;
 }
 
 .portfolio-picture {
     border-radius: 50%;
     height: 17rem;
     width: auto;
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20%;
+
+  
 }
 
 .nav-style {
     padding-top: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
+}
+
+
+
+.home-content {
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10%;
+
 }
