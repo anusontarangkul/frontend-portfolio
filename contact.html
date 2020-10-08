@@ -12,13 +12,40 @@
 </head>
 
 <body>
-    <navbar class="navbar navbar-end has-background-primary">
+    <nav class="navbar has-background-primary">
+        <!-- For Mobile -->
+        <div class="navbar-brand">
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu">
+            <div class="navbar-end">
+                <a href="./index.html" class="nav-style has-text-weight-bold">Home</a>
+                <a href="./portfolio.html" class="nav-style has-text-weight-bold">Portfolio</a>
+                <a href="./contact.html" class="nav-style has-text-weight-bold">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <main class="columns">
 
-        <a href="./index.html" class="nav-style has-text-weight-bold">Home</a>
-        <a href="./portfolio.html" class="nav-style has-text-weight-bold">Portfolio</a>
-        <a href="./contact.html" class="nav-style has-text-weight-bold">Contact</a>
-
-    </navbar>
+        <div class="column">
+            <h1 class="is-size-1 has-text-centered has-text-weight-bold">Contact Me</h1>
+            <div class="card-content is-flex is-horizontal-center">
+                <img class="contact-icon linkedin-icon" src="assets/image/linkedin-icon.png" alt='linkedin icon'>
+                <img class="contact-icon github-icon" src="assets/image/github-icon.svg" alt='github icon'>
+                <img class="contact-icon resume-icon" src="assets/image/resume-icon.svg" alt='resume icon'>
+            </div>
+            <p class="contact-info has-text-centered">Are you looking to hire an ambitious frontend software developer?
+                I am located in the Greater Los Angeles Area and I'm willing to relocate anywhere in the United States.
+                Please
+                contact me with your opportunity by email at <a
+                    href="mailto:anusontarangkul.d@gmail.com">anusontarangkul.d@gmail.com</a>
+                and we can see if we are a right fit.</p>
+        </div>
+    </main>
 </body>
 <script src="./app.js"></script>
 

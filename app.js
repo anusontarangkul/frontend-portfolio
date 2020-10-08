@@ -8,4 +8,14 @@ $(document).ready(function () {
         $(".navbar-menu").toggleClass("is-active");
 
     });
+
+    $(".linkedin-icon").click(function () {
+        window.open("https://www.linkedin.com/in/anusontarangkul/")
+    });
+
+    $(".github-icon").click(function () {
+        window.open("https://github.com/anusontarangkul")
+    });
+
+
 });

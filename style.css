@@ -31,3 +31,17 @@
     margin-top: 10%;
 
 }
+
+.contact-info {
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+
+.contact-icon {
+    max-height: 4rem;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
