@@ -17,5 +17,9 @@ $(document).ready(function () {
         window.open("https://github.com/anusontarangkul")
     });
 
+    $(".resume-icon").click(function () {
+        window.open("./assets/pdf/frontend-resume.pdf")
+    });
+
 
 });
