@@ -8,3 +8,9 @@
     height: 17rem;
     width: auto;
 }
+
+.nav-style {
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
