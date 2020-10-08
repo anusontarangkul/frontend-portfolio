@@ -47,11 +47,10 @@
 
 .projects {
 
-    background-color: aqua;
     margin-top: 20%;
     margin-left: 2rem;
     margin-right: 2rem;
-    min-height: 25rem;
+    min-height: 30rem;
 }
 
 .bullets {
@@ -63,4 +62,11 @@
 
 .center{
     text-align: center;
+}
+
+.sticky-footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    overflow:hidden;
 }
